@@ -1,11 +1,3 @@
-﻿/*****************************************
- * Date : 2019-02-20                     *
- * Class : web services Using .NET & C#  *
- * Professor : Dario Guiao               *
- * File : KnightTour.cs                  *
- * Name : Milim Lee (991274533)          *
- *****************************************/
-
 
 
 using System;
