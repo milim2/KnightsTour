@@ -1,0 +1,62 @@
+﻿# Knight's Tour - Heuristics Method
+
+: Starts from any initial point assingned by a user
+: move to an adjacent, unvisited square with minimal degree 
+ (minimum number of unvisited adjacent).
+: Move pattern on basis of the change of row and column  
+       
+	   int[] row = { 2, 1, -1, -2, -2, -1, 1, 2 };
+       int[] col = { -1, -2, -2, -1, 1, 2, 2, 1 };
+
+## Solution
+: variables curRow, curCol - the knight's current position
+
+: Checking the validation of input number by a user
+
+: minimal move location : int minRow = -1;  int minCol = -1;
+
+: accessiblw movement sets maximum 100 number
+
+: Before moving to next position, using ValidMove method, checking validation
+  
+: To track the knight's tour, using PrintMovement method
+
+## Files
+HeuristicsKnightTour (1 file) = inheritance from KnightTour.cs and PrintInterface1.cs
+KnightTour (1 file) = parent 
+Interface1 (1 file) = PrintInterface1
+Program  = Main
+ReadMe   = MilimleeHeuristicsMethod.txt
+
+## OUTPUT
+
+Enter Target's X axis for the knight(0-7): 2
+Enter Target's Y axis for the knight(0-7): 3
+The tour was finished with 65 moves.
+Trial 1: The knight was able to successfully touch 65 squares.
+
+  38  33   2  17  40  31  12  15
+   3  18  39  32  13  16  43  30
+  50  37  34  41  44  61  14  11
+  19   4  51  62  35  42  29  56
+  52  49  36  45  60  55  10  25
+   5  20  65  54  63  26  57  28
+  48  53  22   7  46  59  24   9
+  21   6  47  64  23   8  27  58
+
+
+  ===============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
